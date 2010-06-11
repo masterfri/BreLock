@@ -1,0 +1,30 @@
+
+		BreLock v1.0
+		
+This is a simple application that provide storing and 
+protection of your passwords. The current version 
+supports only russian language and works on Linux.
+
+		REQUIREMENTS
+		
+Python and GnuPG must be installed. The programm require
+the library pygtk 2.0.
+
+		INSTALLATION
+		
+No installation needed. For convenience you can make
+symlink to brelock.py:
+
+ln -s brelock.py /usr/bin/brelock
+
+then make desktop launcher:
+
+touch ~/Desktop/brelock.desktop && \
+echo "[Desktop Entry]" >> ~/Desktop/brelock.desktop && \
+echo "Version=1.0" >> ~/Desktop/brelock.desktop && \
+echo "Encoding=UTF-8" >> ~/Desktop/brelock.desktop && \
+echo "Name=BreLock" >> ~/Desktop/brelock.desktop && \
+echo "Exec=brelock" >> ~/Desktop/brelock.desktop && \
+echo "Type=Application" >> ~/Desktop/brelock.desktop && \
+echo "StartupNotify=true" >> ~/Desktop/brelock.desktop && \
+echo "Icon=$(pwd)/icon.png" >> ~/Desktop/brelock.desktop
