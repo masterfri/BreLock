@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: brelock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-14 13:03+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: masterfri <masterfri@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: Ukraine\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: /home/grisha/Lab/py/test2\n"
+"X-Poedit-SearchPath-0: /home/grisha/Lab/py/test2\n"
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:98
+msgid "type your password"
+msgstr "Данные зашифрованы, введите пароль."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:124
+msgid "gpg key missing"
+msgstr "Отсутствует ключ GPG."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:162
+msgid "resource missing"
+msgstr "Вы не указали ресурс."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:166
+msgid "username missing"
+msgstr "Вы не указали имя логин."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:170
+msgid "password missing"
+msgstr "Вы не указали пароль."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:266
+#: /home/grisha/Lab/py/test2/brelock.2.py:285
+#, python-format
+msgid "account '%s' exists"
+msgstr "Аккаунт «%s» уже добавлен."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:271
+msgid "account added"
+msgstr "Аккаунт добавлен."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:292
+msgid "account modified"
+msgstr "Аккаунт обновлён."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:316
+msgid "change password"
+msgstr "Сменить пароль"
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:334
+#, python-format
+msgid "can not execute GnuPG '%s'"
+msgstr "Не найдена утилита GnuPG \"%s\"."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:350
+msgid "gpg key generated"
+msgstr "Ключ GPG создан."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:356
+msgid "type old password"
+msgstr "Введите старый пароль."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:407
+#, python-format
+msgid "password require at least %s characters"
+msgstr "Пароль должен состоять как минимум из %s символов."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:413
+msgid "password not confirmed. try again"
+msgstr "Пароли не совпадают. Попробуйте еще раз."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:439
+msgid "error"
+msgstr "Ошибка!"
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:551
+msgid "are you sure"
+msgstr "Вы уверены?"
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:561
+msgid "accounts reloaded"
+msgstr "Аккаунты перезагружены."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:596
+#, python-format
+msgid "you want to delete user '%s'"
+msgstr "Вы действительно хотите удалить аккаунты пользователя «%s»?"
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:598
+#, python-format
+msgid "you want to delete resource '%s'"
+msgstr "Вы действительно хотите удалить аккаунты на «%s»?"
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:611
+msgid "accounts deleted"
+msgstr "Аккаунты удалёны."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:618
+#, python-format
+msgid "you want to delete account '%s'"
+msgstr "Вы действительно хотите удалить аккаутн «%s»?"
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:622
+msgid "account deleted"
+msgstr "Аккаунт удалён."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:643
+msgid "edit account"
+msgstr "Правка аккаунта"
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:644
+msgid "update"
+msgstr "Обновить"
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:667
+msgid "password copied into clipboard"
+msgstr "Пароль скопирован в буфер обмена."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:675
+msgid "username copied into clipboard"
+msgstr "Логин скопирован в буфер обмена."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:683
+msgid "account name copied into clipboard"
+msgstr "Название аккаунта скопировано в буфер обмена."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:763
+msgid "gpg key generation"
+msgstr "Генерация ключа GPG."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:774
+msgid "failed to create gpg key"
+msgstr "Не удалось создать GPG ключ."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:785
+#: /home/grisha/Lab/py/test2/brelock.2.py:810
+msgid "wrong password"
+msgstr "Неверный пароль."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:787
+msgid "failed to change password"
+msgstr "Не удалось сменить пароль."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:799
+#: /home/grisha/Lab/py/test2/brelock.2.py:812
+msgid "failed to encrypt data"
+msgstr "Не удалось создать зашифровать данные. Шифрование будет отключено."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:819
+#: /home/grisha/Lab/py/test2/brelock.2.py:832
+#: /home/grisha/Lab/py/test2/brelock.2.py:857
+#, python-format
+msgid "'%s' must be directory"
+msgstr "«%s» должна быть папкой."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:822
+#: /home/grisha/Lab/py/test2/brelock.2.py:835
+#: /home/grisha/Lab/py/test2/brelock.2.py:860
+#, python-format
+msgid "directory '%s' must be writable"
+msgstr "Папка «%s» должна быть доступна для записи."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:827
+#, python-format
+msgid "directory '%s' not exists"
+msgstr "Папка «%s» должна существовать."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:841
+#, python-format
+msgid "failed to create directory '%s'"
+msgstr "Не удалось создать папку «%s»."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:848
+#, python-format
+msgid "'%s' must be file"
+msgstr "«%s» должен быть файлом."
+
+#: /home/grisha/Lab/py/test2/brelock.2.py:851
+#, python-format
+msgid "file '%s' must be writable"
+msgstr "Файл «%s» должен быть доступен для записи."
+
